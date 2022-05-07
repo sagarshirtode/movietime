@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrning!</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+            text-shadow: 0 0 50px #0f0,
+            0 0 50px #0f0,
+            0 0 50px #0f0,
+            0 0 50px #0f0,
+            0 0 50px #0f0;
+            animation: ani 5s linear infinite;
+        }
+        @keyframes ani {
+            0%{filter: hue-rotate(0deg);}
+            20%{filter: hue-rotate(90deg);}
+            50%{filter: hue-rotate(180deg);}
+            80%{filter: hue-rotate(270deg);}
+            100%{filter: hue-rotate(360deg);}
+        }
+        .main h2{
+            background-color: gray;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>404 Error</h2> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: darkblue;
+    background-color: black;
+}
+h3{
+    background-color: beige;
+}
+.movies{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    overflow: scroll;
+    
+}
+.card {
+    border-radius: 30px;
+}
+.card img{
+    border-radius: 30px;
+}
+.card-title{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 820px) {
+    .movies {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color:black;
+    }
+    .card{
+        padding-top: 10px;
+    }
+  }
